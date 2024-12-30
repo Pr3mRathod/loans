@@ -17,6 +17,10 @@ connectDB();
 // Middleware
 app.use(express.json());
 
+app.get('/', (req, res) => {
+    res.send("API IS RUNNING");
+  });
+  
 
 // Customer Routes
 app.use('/c', customerRoutes);
