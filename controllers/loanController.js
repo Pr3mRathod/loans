@@ -1,6 +1,5 @@
-const path = require('path');
-const Loan = require(path.join(__dirname, "../models/loan"));
-const Customer = require(path.join(__dirname, "../models/Customer"));
+const Loan = require("../models/loan");
+const Customer = require("../models/loan");
 
 // Controller to create a new loan application
 exports.createLoan = async (req, res) => {

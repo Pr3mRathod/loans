@@ -1,6 +1,5 @@
-const path = require('path');
-const Customer = require(path.join(__dirname, "../models/Customer"));
-const Counter = require(path.join(__dirname, "../models/counter"));
+const Customer = require("../models/Customer");
+const Counter = require("../models/counter");
 
 // Create Customer
 exports.createCustomer = async (req, res) => {

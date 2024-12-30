@@ -1,6 +1,5 @@
-const path = require('path');
 const mongoose = require("mongoose");
-const Counter = require(path.join(__dirname, "./counter")); 
+const Counter = require("./counter"); 
 
 const CustomerSchema = new mongoose.Schema({
   customerId: { 
