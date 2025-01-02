@@ -1,5 +1,5 @@
 const Loan = require("../models/loan");
-const Customer = require("../models/loan");
+const Customer = require("../models/Customer");
 
 // Controller to create a new loan application
 exports.createLoan = async (req, res) => {
